@@ -1,0 +1,32 @@
+name: section3
+description: A simple Flutter project using GetX and section3 structure
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Section.png"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Section.png"
